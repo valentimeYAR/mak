@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 25px 0;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.center{
+    display: flex;
+    align-items: center;
+    gap: 0 15px;
+}
+.right{
+    display: flex;
+    align-items: center;
+    gap: 0 15px;
+}
+.navLink{
+    font-size: 17px;
+    color: black;
+}
+.loginBtn{
+    padding: 10px 22px;
+    background-color: #f4f4f4;
+    color: #000;
+    border-radius: 25px;
+    font-size: 17px;
+    font-weight: 600;
+}

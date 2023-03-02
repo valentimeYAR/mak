@@ -1,0 +1,20 @@
+.container{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 17px;
+    color: black;
+    cursor: pointer;
+}
+.location{
+    position: relative;
+    padding-left: 30px;
+}
+.location::before{
+    content: '';
+    position: absolute;
+    background: url("https://www.svgrepo.com/show/500921/location.svg");
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    left: 0;
+    top: -3px;
+}
