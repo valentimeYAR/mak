@@ -1,0 +1,65 @@
+.container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Libre Fronklin', sans-serif;
+}
+.content{
+    width: 500px;
+    background-color: white;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.title{
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.label{
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+.input{
+    font-size: 17px;
+    height: 48px;
+    width: 100%;
+    border: 1px solid #d6d6d6;
+    border-radius: 25px;
+    background-color: #fff;
+    color: #000;
+    padding: 0 17px;
+    margin-bottom: 15px;
+}
+.btnActive{
+    display: inline;
+    width: 200px;
+    height: 49px;
+    text-align: center;
+    font-size: 17px;
+    padding: 0 22px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+.description{
+    font-size: 17px;
+    color: gray;
+}
+.description span{
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+}
+.closeModal{
+    font-size: 20px;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    cursor: pointer;
+}

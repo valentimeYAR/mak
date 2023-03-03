@@ -8,7 +8,7 @@ const Logo = (props) => {
                 width: props.width,
                 height: props.height
             }}>
-                <g fill="none" fill-rule="evenodd">
+                <g fill="none" fillRule="evenodd">
                     <g fill="#264f36">
                         <path
                             d="M60.65 8.212h3.805l-.02 5.061h.69l4.155-5.061h4.546l-5.7 6.5 5.978 6.924h-4.7l-4.27-5.143h-.688l.02 5.143H60.66V8.212z"></path>

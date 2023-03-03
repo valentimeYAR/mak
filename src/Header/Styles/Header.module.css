@@ -7,11 +7,6 @@
     padding: 25px 0;
     font-family: 'Libre Franklin', sans-serif;
 }
-.center{
-    display: flex;
-    align-items: center;
-    gap: 0 15px;
-}
 .right{
     display: flex;
     align-items: center;
